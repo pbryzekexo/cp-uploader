@@ -25,8 +25,8 @@ unique_voters = {}
 voter_file_table_dict = {}
 unique_voter_file_table_dict = {}
 donor_file_table_dict = {}
-
-states_allowed = {'ca': True}
+          
+states_allowed = {'al': True, 'ak': True, 'az': True, 'ar': True, 'ca': True, 'co': True, 'ct': True, 'dc': True, 'de': True, 'fl': True, 'ga': True, 'hi': True, 'id': True, 'il': True, 'in': True, 'ia': True, 'ks': True, 'ky': True, 'la': True, 'me': True, 'md': True, 'ma': True, 'mi': True, 'mn': True, 'ms': True, 'mo': True, 'mt': True, 'ne': True, 'nv': True, 'nh': True, 'nj': True, 'nm': True, 'ny': True, 'nc': True, 'nd': True, 'oh': True, 'ok': True, 'or': True, 'pa': True, 'ri': True, 'sc': True, 'sd': True, 'tn': True, 'tx': True, 'ut': True, 'vt': True, 'va': True, 'wa': True, 'wv': True, 'wi': True, 'wy': True}
 
 class PG:
     def __init__(self):
